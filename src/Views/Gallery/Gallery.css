@@ -1,0 +1,43 @@
+.gallery{
+    margin-top: -1em;
+    height: 90vh;
+    padding: 2%;
+    background-color: rgb(3, 154, 247);
+}
+.gallery h2{
+    font-size: 2.5em
+}
+.gallery .divider{
+    width: 20%;
+    height: 2%;
+    background-color: white;
+    margin-top: 1em;
+    border-radius: 28px;
+    transition: 36000s;
+}
+.divider:hover{
+    width: 80%;
+    transition: 3s;
+}
+.gall{
+    width: 100%;
+    height: 75%;
+    padding: 0 auto;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+.gall div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: transparent;
+}
+.gall .image{
+    margin: 0 auto;
+    text-align: center;
+}
+@media screen and (max-width:800px) {
+    .gallery .divider{
+        width: 80%;
+    }
+}

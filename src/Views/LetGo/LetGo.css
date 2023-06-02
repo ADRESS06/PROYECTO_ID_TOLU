@@ -1,0 +1,42 @@
+.letgo{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    padding: 2%;
+}
+.lo{
+    width: 70%;
+    height: 100%;margin-right: 5%;
+}
+.lo img{
+    width: 100%;
+}
+.go{
+    width: 25%;
+    height: 95%;
+    border: 10px solid rgb(0, 157, 255);
+    border-radius: 28px;
+    box-shadow: 10px 10px 5px 3px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ir{
+    text-align: center;
+}
+.ir Button{
+    margin-top: 10% !important;
+}
+@media screen and (max-width:800px) {
+    .lo{
+        display: none;
+    }
+    .go{
+        width: 90%;
+        height: 95%;
+        margin: 0 auto;
+        background-image: url(./Log.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
